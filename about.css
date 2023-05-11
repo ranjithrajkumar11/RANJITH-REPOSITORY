@@ -1,0 +1,31 @@
+body{
+    background-image: url(MEDIA/ipl\ backround.avif);
+    background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 300vh;
+}
+p{
+    font-weight: 10000000000;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(243, 246, 243);
+}
+h2{
+    font-size: 3em;
+    color: brown;
+}
+h1{
+    font-size: 5em;
+    color: wheat;
+}
+ul{
+    font-weight: 10000000000;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(243, 238, 169); 
+}
+img{
+    float: right;
+    width: 30%;
+}

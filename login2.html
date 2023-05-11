@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login2.css">
+    <title>EXISTING USER LOGIN</title>
+</head>
+<body>
+    <script>
+        function checktheinputs(){
+        var username=document.getElementById("username").value;
+        var password=document.getElementById("password").value;
+
+        if(username===null||username===""){
+            alert("please fill this username field");
+        return false;
+    }
+
+        else if(password===null||password===""){
+            alert("please fill the password field");
+            return false;
+        }
+        
+        else if((username!=="ranjithrit" || password!=="k.r.b.11")&&(username!=="sanjayit" ||password!=="19792004") ){
+            alert("invalid username or password");
+            return false;
+        }
+        else{
+            alert("signed in successful! press ok");
+            return true;
+        }
+       
+
+    }
+    </script>
+    <h1 style="color: wheat;">ALL ABOUT IPL</h1>
+    <h1>SIGN-IN</h1>
+ 
+    <form id="form" onsubmit="return checktheinputs()" action="index.html" >
+    <div class="hi">
+        <label for="username">USERNAME</label>
+        <input type="text" id="username" name="username" placeholder="enter the username">
+    </div>
+    <div class="hi">
+        <label for="password">PASSWORD</label>
+        <input type="password" id="password" name="password" placeholder="enter the password">
+    </div>
+    <button id="input"type="submit">SIGN-IN</button><br>
+    create an account: <a href="login+java.html" style="text-decoration: none;color: rgb(28, 20, 255);">click here</a> </center>  
+</html>

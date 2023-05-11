@@ -1,0 +1,30 @@
+body{
+    background-image: url(MEDIA/ipl\ backround.avif); 
+    
+    
+    
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1250vh;
+}
+
+h1{
+    color:wheat;
+    font-size: 5em;
+}
+h2{
+    font-size: 4em;
+    color: brown;
+
+}
+h3{
+    font-size: 3em;
+    color: aliceblue;
+}
+img{
+    width: 800px;
+}
+

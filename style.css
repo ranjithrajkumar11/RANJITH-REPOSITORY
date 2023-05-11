@@ -1,0 +1,124 @@
+:root{
+    --red:crimson;
+    --green:#53BF9D;
+    --yellow:#FFC54D;
+    --white:whitesmoke;
+}
+.landing{
+    background-image: url('../MEDIA/CRICKET\ IPL.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 105vh;
+    
+}
+
+
+
+header a{
+    text-decoration: none;
+    color:var(--yellow);
+    font-size: large;
+    padding: 0.7em;
+
+}
+
+header{
+    display:flex;
+}
+
+.logo{
+    flex:3;
+    font-size: 300%;
+    color: var(--red);
+   
+}
+
+
+
+nav:hover{
+    text-decoration: underline;
+    
+}
+nav a{
+    flex:5;
+    
+
+}
+
+div img{
+    padding:3.9em
+    
+}
+
+
+a:hover{
+    cursor: pointer;
+}
+
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0em;
+    
+    
+}
+
+nav a{
+    float: rIGHT;
+    width: 200px;
+    height: 15px;
+    
+    text-align: center;
+    ;
+}
+
+
+.title{
+    background-color: rgb(27, 38, 244);
+    font-size: 2.5em;
+     background-image: url("MEDIA/titlelogo.jpg"); 
+    background-size: cover;
+    
+    height: 150px; 
+    width: 200px;
+
+}
+/* .navi{
+    padding:%;
+} */
+div a:hover{
+    color: cyan;
+    
+}
+.teamimages{
+    color: #53BF9D;
+}
+
+form{
+    background-color: khaki;
+    padding: 3EM;
+}
+.foot:hover{
+    color: rgb(168, 16, 16);
+}
+.pic:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#imag{
+    float: right;
+}
+.navimg:hover{
+    background-color: black;
+    color: rgb(21, 168, 185);
+    
+}
+.navimg{
+    font-size: 2em;
+    height: 50px;
+    
+}
+#button:hover{
+    background-color: black;
+}
